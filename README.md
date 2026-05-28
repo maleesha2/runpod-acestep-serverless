@@ -1,5 +1,7 @@
 # ComfyUI ACE-Step for RunPod Serverless
 
+[![Runpod](https://api.runpod.io/badge/maleesha2/runpod-acestep-serverless)](https://console.runpod.io/hub/maleesha2/runpod-acestep-serverless)
+
 This repository provides a Dockerized environment for running the ACE-Step music generation model via ComfyUI as a RunPod Serverless endpoint.
 
 ## Architecture
