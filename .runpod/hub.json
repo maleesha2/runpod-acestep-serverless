@@ -1,0 +1,18 @@
+{
+  "title": "Runpod ACE-Step Serverless",
+  "description": "ComfyUI headless serverless endpoint equipped with ACE-Step music generation models.",
+  "type": "serverless",
+  "category": "audio",
+  "iconUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+  "config": {
+    "runsOn": "GPU",
+    "containerDiskInGb": 30,
+    "presets": [
+      {
+        "name": "ACE-Step Default",
+        "description": "Default configuration for ACE-Step generation",
+        "env": []
+      }
+    ]
+  }
+}

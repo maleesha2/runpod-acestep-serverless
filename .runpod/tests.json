@@ -1,0 +1,12 @@
+{
+  "tests": [
+    {
+      "name": "basic_generation",
+      "input": {
+        "workflow": {
+          "placeholder": "Send a valid ComfyUI workflow JSON here"
+        }
+      }
+    }
+  ]
+}
