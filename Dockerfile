@@ -16,6 +16,9 @@ RUN git clone https://github.com/comfyanonymous/ComfyUI.git /workspace/ComfyUI
 # Install ComfyUI dependencies
 RUN pip install --no-cache-dir -r /workspace/ComfyUI/requirements.txt
 
+# Upgrade PyTorch so comfy_kitchen can use torch.library.custom_op (Requires PyTorch 2.4+)
+RUN pip install --no-cache-dir torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121 --upgrade
+
 # Clone ACE-Step Custom Node
 WORKDIR /workspace/ComfyUI/custom_nodes
 RUN git clone https://github.com/ace-step/ACE-Step-ComfyUI.git
